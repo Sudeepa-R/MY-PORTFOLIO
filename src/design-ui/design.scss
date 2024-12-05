@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     // background-color: #11092a;
-    background: linear-gradient(to right, #010408,#082344); 
+    background: linear-gradient(to right, #090418,#010408); 
     height: 13vh;
     width: 100%;
 }
@@ -21,4 +21,8 @@
     color: #00EEFF;
     border-bottom: 2px solid #00EEFF;
 }
-
+.navBg{
+   position: fixed;
+   z-index: 1;
+   width: 100%;
+}
