@@ -1,16 +1,17 @@
+
+
 import React, { Component } from 'react'
-import NewsItem from './components/NewsItem'
-import Example from './components/Example'
-import PortfolioHome from './components/PortfolioHome'
-
-
+import IconCloudDemo from './design-ui/Globe'
+import HomePage from './pages'
+import GoogleGeminiEffectDemo from './design-ui/HomePageAnimation'
 
 export default class App extends Component {
   render() {
     return (
       <div>
-      <PortfolioHome/>
-      <PortfolioHome/>
+            {/* <HomePage/> */}
+            <GoogleGeminiEffectDemo/>
+           
       </div>
     )
   }

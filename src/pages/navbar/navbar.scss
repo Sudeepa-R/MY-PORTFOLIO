@@ -1,0 +1,24 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    // background-color: #11092a;
+    background: linear-gradient(to right, #010408,#082344); 
+    height: 13vh;
+    width: 100%;
+}
+.logoImg{
+    display: flex;
+    align-items: center;
+}
+.sectionLinks{
+    font-size: large;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    margin-right: 100px;
+}
+.sectionLinks a:hover{
+    color: #00EEFF;
+    border-bottom: 2px solid #00EEFF;
+}
+
