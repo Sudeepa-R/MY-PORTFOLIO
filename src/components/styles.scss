@@ -1,0 +1,40 @@
+body{
+    background-color: #090418;
+    font-family: 'Poppins', sans-serif;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #090418;
+    height: 10vh;
+    
+}
+.navigationLink{
+    margin-right: 5rem;
+    color: whitesmoke;
+    letter-spacing: 1.5px;
+}
+.projectLogo{
+    margin-left: 6rem;
+    color:#bee9e4;
+    height: 55px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.links:hover{
+    color: #00EEFF;
+    cursor: pointer;
+    border-bottom: 1px solid #00EEFF;
+}
+.links:active{
+    color: red !important;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo2{
+    height: 25px;
+}
