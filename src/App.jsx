@@ -10,6 +10,7 @@ export default class App extends Component {
     return (
       <div>
       <PortfolioHome/>
+      <PortfolioHome/>
       </div>
     )
   }
